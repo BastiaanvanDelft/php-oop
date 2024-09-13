@@ -1,6 +1,5 @@
 <?php
-session_start(); // Start of hervat een sessie
-// Sessievariabele instellen
+session_start();
 $_SESSION['taal'] = "Nederlands";
-// Sessievariabele uitlezen
 echo "Language: " . $_SESSION['taal'];
+unset($_SESSION['taal']);
